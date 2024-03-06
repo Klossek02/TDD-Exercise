@@ -1,4 +1,5 @@
 import unittest
+import pytest
 from StringCalculator import StringCalculator
 
 class CalculatorTest(unittest.TestCase):
@@ -46,3 +47,4 @@ class CalculatorTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+    pytest.main()
